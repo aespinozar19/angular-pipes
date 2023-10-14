@@ -11,7 +11,6 @@
     "delete:docs": "del docs",
     "copy:dist": "copyfiles dist/pipes-app/* ./docs -f",
     "build:github": "npm run delete:docs && npm run build:href && npm run copy:dist"
-
   },
   "private": true,
   "dependencies": {
@@ -35,6 +34,7 @@
     "@angular/cli": "^16.2.6",
     "@angular/compiler-cli": "^16.2.0",
     "@types/jasmine": "~4.3.0",
+    "copyfiles": "^2.4.1",
     "jasmine-core": "~4.6.0",
     "karma": "~6.4.0",
     "karma-chrome-launcher": "~3.2.0",
